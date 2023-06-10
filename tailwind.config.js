@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./docs/*.html"],
+  content: ["./docs/*.html,js"],
   theme: {
     fontFamily: {
       sans: ["Josefin Sans", "sans-serif"],
