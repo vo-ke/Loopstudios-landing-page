@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+a:hover span {
+    width: 100%;
+  }
+
+  div.hover span {
+    display: block;
+  }
+
+  .normal {
+    @apply uppercase z-20 text-white text-3xl sm:text-4xl absolute bottom-3 px-5 md:px-10 md:bottom-7 group-hover:text-black transition-all ease-in-out duration-700;
+  }
+
+  .perfect {
+    @apply absolute inset-0 group-hover:bg-gradient-to-b group-hover:from-transparent group-hover:to-gray-500 z-10 md:group-hover:scale-110 duration-200 group-hover:scale-105;
+  }
+
+  .ick {
+    @apply duration-300
+  }

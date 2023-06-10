@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+
+  <!-- gogle fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Loopstudios landing page</title>
+<link rel="stylesheet" href="\docs\output.css">
+  
+</head>
+<body>
+
+  <!-- hero section -->
+ 
+ <header class="bg-cover bg-no-repeat bg-small md:bg-large pb-12 sm:pt-12 pt-7 md:px-14 ">
+
+    <!-- navbar -->
+    <nav class="max-w-7xl items-center justify-between mx-9 md:mx-20 mb-4 mt-1 sm:mt-4 relative">
+      <div class="md:ml-3">
+       <svg width="192" height="32" xmlns="http://www.w3.org/2000/svg"><path d="M2.694 26.324a2.694 2.694 0 002.695-2.697V2.697a2.694 2.694 0 10-5.389 0v20.93a2.694 2.694 0 002.694 2.697zm15.506.213c5.92 0 10.317-4.435 10.317-9.898v-.071c0-5.464-4.36-9.827-10.246-9.827-5.92 0-10.317 4.434-10.317 9.898v.07c0 5.464 4.361 9.828 10.246 9.828zm.071-4.648c-2.978 0-4.999-2.448-4.999-5.25v-.071c0-2.803 1.844-5.18 4.928-5.18 2.978 0 5 2.448 5 5.25v.072c0 2.802-1.844 5.18-4.929 5.18zm21.887 4.648c5.921 0 10.317-4.435 10.317-9.898v-.071c0-5.464-4.36-9.827-10.246-9.827-5.92 0-10.317 4.434-10.317 9.898v.07c0 5.464 4.361 9.828 10.246 9.828zm.071-4.648c-2.978 0-4.999-2.448-4.999-5.25v-.071c0-2.803 1.844-5.18 4.928-5.18 2.979 0 5 2.448 5 5.25v.072c0 2.802-1.844 5.18-4.929 5.18zM55.487 32a2.694 2.694 0 002.694-2.696v-5.677c1.277 1.526 3.05 2.839 5.921 2.839 4.503 0 8.65-3.477 8.65-9.827v-.071c0-6.35-4.218-9.827-8.65-9.827-2.8 0-4.609 1.312-5.92 3.086V9.58a2.694 2.694 0 10-5.39 0v19.725A2.694 2.694 0 0055.488 32zm7.232-10.11c-2.517 0-4.608-2.094-4.608-5.251v-.071c0-3.158 2.091-5.25 4.608-5.25 2.518 0 4.645 2.092 4.645 5.25v.07c0 3.193-2.127 5.251-4.645 5.251zm19.087 4.576c4.113 0 7.268-1.916 7.268-6.138v-.07c0-3.478-3.084-4.755-5.743-5.642-2.057-.71-3.865-1.206-3.865-2.27v-.071c0-.745.674-1.313 1.985-1.313 1.135 0 2.589.462 4.113 1.207.355.177.603.248.993.248 1.205 0 2.162-.923 2.162-2.129 0-.922-.496-1.632-1.276-2.022-1.843-.922-3.9-1.454-5.885-1.454-3.83 0-6.949 2.164-6.949 6.03v.072c0 3.69 3.014 4.93 5.673 5.711 2.091.639 3.935 1.03 3.935 2.2v.07c0 .852-.71 1.42-2.27 1.42-1.524 0-3.332-.568-5.14-1.703a2.066 2.066 0 00-1.064-.284c-1.205 0-2.127.923-2.127 2.129 0 .851.461 1.49 1.028 1.845 2.305 1.49 4.822 2.164 7.162 2.164zm15.612-.036c1.17 0 2.092-.142 3.085-.532a2.194 2.194 0 001.382-2.022 2.248 2.248 0 00-2.233-2.235c-.107 0-.461.035-.638.035-1.206 0-1.738-.603-1.738-1.845v-8.124h2.376a2.3 2.3 0 002.304-2.306 2.3 2.3 0 00-2.304-2.306h-2.376V4.718a2.694 2.694 0 10-5.389 0v2.377h-.177a2.3 2.3 0 00-2.304 2.306 2.3 2.3 0 002.304 2.306h.177v9.011c0 4.4 2.234 5.712 5.531 5.712zm13.024.036c2.73 0 4.325-1.455 5.566-3.051v.212a2.694 2.694 0 105.39 0V9.58a2.694 2.694 0 10-5.39 0v8.124c0 2.554-1.311 3.867-3.368 3.867-2.056 0-3.261-1.313-3.261-3.867V9.579a2.694 2.694 0 10-5.39 0v9.827c0 4.363 2.376 7.06 6.453 7.06zm21.994 0c2.8 0 4.609-1.313 5.92-3.087v.248a2.694 2.694 0 105.39 0V2.697a2.694 2.694 0 10-5.39 0v6.882c-1.276-1.526-3.048-2.838-5.92-2.838-4.503 0-8.65 3.476-8.65 9.827v.07c0 6.35 4.218 9.828 8.65 9.828zm1.383-4.577c-2.518 0-4.645-2.093-4.645-5.25v-.071c0-3.193 2.127-5.25 4.645-5.25 2.517 0 4.608 2.092 4.608 5.25v.07c0 3.158-2.091 5.251-4.608 5.251zm16.108-16.71c1.702 0 3.014-.993 3.014-2.554v-.07c0-1.562-1.312-2.52-3.014-2.52-1.702 0-3.013.958-3.013 2.52v.07c0 1.561 1.311 2.555 3.013 2.555zm0 21.145a2.694 2.694 0 002.694-2.697V9.58a2.694 2.694 0 10-5.388 0v14.048a2.694 2.694 0 002.694 2.697zm15.506.213c5.92 0 10.317-4.435 10.317-9.898v-.071c0-5.464-4.361-9.827-10.246-9.827-5.921 0-10.317 4.434-10.317 9.898v.07c0 5.464 4.36 9.828 10.246 9.828zm.07-4.648c-2.977 0-4.998-2.448-4.998-5.25v-.071c0-2.803 1.843-5.18 4.928-5.18 2.978 0 4.999 2.448 4.999 5.25v.072c0 2.802-1.844 5.18-4.928 5.18zm19.23 4.577c4.112 0 7.267-1.916 7.267-6.138v-.07c0-3.478-3.084-4.755-5.743-5.642-2.057-.71-3.865-1.206-3.865-2.27v-.071c0-.745.674-1.313 1.986-1.313 1.134 0 2.588.462 4.112 1.207.355.177.603.248.993.248 1.205 0 2.162-.923 2.162-2.129 0-.922-.496-1.632-1.276-2.022-1.843-.922-3.9-1.454-5.885-1.454-3.83 0-6.949 2.164-6.949 6.03v.072c0 3.69 3.014 4.93 5.673 5.711 2.091.639 3.935 1.03 3.935 2.2v.07c0 .852-.71 1.42-2.27 1.42-1.524 0-3.332-.568-5.14-1.703a2.066 2.066 0 00-1.063-.284c-1.206 0-2.128.923-2.128 2.129 0 .851.461 1.49 1.028 1.845 2.305 1.49 4.822 2.164 7.162 2.164z" fill="#FFF" fill-rule="nonzero"/></svg>
+      </div>
+      <div id="open-btn" class="absolute right-0 inset-y-0 items-center md:hidden flex ">
+       <a><svg width="24" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="#FFF" fill-rule="evenodd"><path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z"/></g></svg></a>
+      </div>
+      
+      <!-- Desktop menu -->
+      <div class="absolute text-base right-0 inset-y-0 font-alata items-center md:flex hidden  text-white ">
+        <div class="cursor-pointer space-x-8">  
+          <a href="#" class="hover relative">
+            About
+            <span class="absolute w-0 left-1/2 -bottom-2 h-v bg-white transform -translate-x-1/2 transition-all duration-500 ease-in-out"></span>
+          </a>
+        <a href="#" class="hover relative">
+          Careers
+          <span class="absolute w-0 left-1/2 -bottom-2 h-v bg-white transform -translate-x-1/2 transition-all duration-500 ease-in-out"></span>
+        </a>
+        <a href="#" class="hover relative">
+          Events
+          <span class="absolute w-0 left-1/2 -bottom-2 h-v bg-white transform -translate-x-1/2 transition-all duration-500 ease-in-out"></span>
+        </a>
+        <a href="#" class="hover relative">
+          Products
+          <span class="absolute w-0 left-1/2 -bottom-2 h-v bg-white transform -translate-x-1/2 transition-all duration-500 ease-in-out"></span>
+        </a>
+        <a href="#" class="hover relative">
+          Support
+          <span class="absolute w-0 left-1/2 -bottom-2 h-v bg-white transform -translate-x-1/2 transition-all duration-500 ease-in-out"></span>
+        </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="md:ml-3 p-9 md:p-11 mt-200 mb-300 sm:mb-100 sm:mt-100 flex justify-center md:justify-start uppercase inset-y-0">
+      <div class="border-white border-3 max-w-2xl rmd:py-12 rmd:px-12 p-6 md:ml-9">
+      <h1 class="text-4xl ibw:text-6xl sm:text-5xl text-white">
+        immersive experiences that deliver 
+      </h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- The intermediate section -->
+ <div class="mx-14 rmd:mx-28 mt-40 mb-16 md:mb-40 flex md:flex-row flex-col relative">
+  <div class="z-0 md:max-w-md ptb:max-w-lg lg:max-w-xl xl:max-w-max"><img src="\images\mobile\image-interactive.jpg" alt="virtual reality sumn"></div>
+  <div class="bg-white text-center md:text-start box-border z-10 h-auto max-w-2xl px-6 pt-14 md:p-10 lg:p-16 xl:p-20  md:absolute pro:left-0.45 md:left-1/2 top-1/3"> 
+    <h2 class="md:text-3xl ptb:text-4xl sm:text-4xl text-3xl sm:pb-7 pb-6 font-sans">THE LEADER IN INTERACTIVE VR</h2>
+    <p class="font-alata text-gray-500">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+  </div>
+  </div>
+
+  <!-- creation display -->
+  <div class="mx-14 items-center md:mx-28 mb-12 pt-6 md:text-start text-center relative">
+    <h1 class="sm:text-5xl text-3xl uppercase">our creations</h1>
+    <h2 class="cursor-pointer absolute right-8 top-6 font-alata tracking-wild delay-100 uppercase hidden md:flex box-border border-black border-1 h-10 w-40 px-8 py-1 hover:bg-black hover:text-white transition-all duration-700 ease-in-out translate-x-8">see all</h2>
+  </div>
+
+<div class="items-center text-center ">
+  <section class="mx-14 md:mx-28 my-2 py-3 grid grid-cols-1 grid-flow-row rmd:grid-cols-2 ptb:grid-cols-3 pro:grid-cols-4 gap-6 md:gap-8">
+    <!-- first image -->
+    <div class="group cursor-pointer relative">
+      <span class="perfect" ></span>
+      <img src="\images\desktop\image-deep-earth.jpg" class="md:block hidden object-cover h-full w-full group-hover:scale-110 group-hover:opacity-50 duration-200">
+      <img src="\images\mobile\image-deep-earth.jpg" class="md:hidden block group-hover:scale-105 group-hover:opacity-50 duration-200">
+      <p class="normal">deep<br>space</p>
+    </div>
+    <!-- second image -->
+    <div class="group cursor-pointer relative">
+      <img src="\images\desktop\image-night-arcade.jpg" class="md:block object-cover h-full w-full hidden group-hover:scale-110 group-hover:opacity-50 duration-200">
+      <img src="\images\mobile\image-night-arcade.jpg" class="md:hidden block group-hover:scale-105 group-hover:opacity-50 duration-200">
+      <p class="normal">night<br>arcade</p>
+    </div>
+    <!-- third image -->
+    <div class="group cursor-pointer relative">
+      <img src="\images\desktop\image-soccer-team.jpg" class="md:block object-cover h-full w-full hidden duration-200 group-hover:opacity-50 group-hover:scale-110">
+      <img src="\images\mobile\image-soccer-team.jpg" class="md:hidden block duration-200 group-hover:scale-105 group-hover:opacity-50">
+      <p class="normal">soccer<br>team vr</p>
+    </div>
+    <!-- fourth image -->
+    <div class=" group cursor-pointer relative">
+      <img src="\images\desktop\image-grid.jpg" class="md:block hidden object-cover h-full w-full group-hover:scale-110 group-hover:opacity-50 duration-200">
+      <img src="\images\mobile\image-grid.jpg" class="md:hidden block group-hover:scale-105 group-hover:opacity-50 duration-200">
+      <p class="normal">the <br>grid</p>
+    </div>
+    <!-- fifth image -->
+    <div class="group cursor-pointer relative">
+      <img src="\images\desktop\image-from-above.jpg" class="md:block hidden object-cover h-full w-full group-hover:scale-110 group-hover:opacity-50 duration-200">
+      <img src="\images\mobile\image-from-above.jpg" class="md:hidden block group-hover:scale-105 group-hover:opacity-50 duration-200">
+      <p class="normal">from up<br>above vr</p>
+    </div>
+    <!-- sixth image -->
+    <div class="group cursor-pointer relative">
+      <img src="\images\desktop\image-pocket-borealis.jpg" class="md:block hidden object-cover h-full w-full group-hover:scale-110 group-hover:opacity-50 duration-200">
+      <img src="\images\mobile\image-pocket-borealis.jpg" class="md:hidden block group-hover:scale-105 group-hover:opacity-50 duration-200">
+      <p class="normal">pocket<br>borealis</p>
+    </div>
+    <!-- seventh image -->
+    <div class="group cursor-pointer relative">
+      <img src="\images\desktop\image-curiosity.jpg" class="md:block hidden object-cover h-full w-full group-hover:scale-110 group-hover:opacity-50 duration-200">
+      <img src="\images\mobile\image-curiosity.jpg" class="md:hidden block group-hover:scale-105 group-hover:opacity-50 duration-200">
+      <p class="normal">the<br>curiosity</p>
+    </div>
+    <!-- last image for the day -->
+    <div class="group cursor-pointer relative"> 
+      <img src="\images\desktop\image-fisheye.jpg" class="md:block hidden object-cover h-full w-full group-hover:scale-110 group-hover:opacity-50 duration-200">
+      <img src="\images\mobile\image-fisheye.jpg" class="md:hidden block group-hover:scale-105 group-hover:opacity-50 duration-200">
+      <p class="normal">make it<br>fisheye</p>
+    </div>
+  </section>
+</div>
+
+<!-- "see all" nav for small devices -->
+<div class=" justify-center mx-14 flex md:hidden mb-10">
+<div class="cursor-pointer font-alata tracking-wild delay-100 uppercase box-border border-black border-1 h-10 w-40 px-8 py-1 hover:bg-black hover:text-white  ease-in-out translate-y-6 transition-all duration-700">see all</div>
+</div>
+
+<!-- footer -->
+<footer class="bg-black h-auto md:mt-32 mt-24">
+  <div class="mx-14 md:mx-28 relative flex justify-center md:justify-stretch flex-col">
+    <!-- 1st half footer -->
+    <div class="py-12 md:py-16">
+      <!-- Loopstudios logo -->
+      <div class="flex text-center justify-center md:justify-start max-w-6xl">
+        <img src="\images\logo.svg" alt="the bastard logo">
+      </div>
+      
+      <!-- mini-mynie things -->
+      <section class="flex text-center justify-center md:justify-start max-w-6xl">
+        <div class="cursor-pointer tiny:space-x-7 space-y-3 text-white font-alata text-base mt-10 md:mt-12 flex flex-col tiny:block text-center">  
+          <a href="#" class="hover relative">
+            About
+            <span class="absolute w-0 left-1/2 -bottom-2 h-v bg-white transform -translate-x-1/2 transition-all duration-500 ease-in-out"></span>
+          </a>
+        <a href="#" class="hover relative">
+          Careers
+          <span class="absolute w-0 left-1/2 -bottom-2 h-v bg-white transform -translate-x-1/2 transition-all duration-500 ease-in-out"></span>
+        </a>
+        <a href="#" class="hover relative">
+          Events
+          <span class="absolute w-0 left-1/2 -bottom-2 h-v bg-white transform -translate-x-1/2 transition-all duration-500 ease-in-out"></span>
+        </a>
+        <a href="#" class="hover relative">
+          Products
+          <span class="absolute w-0 left-1/2 -bottom-2 h-v bg-white transform -translate-x-1/2 transition-all duration-500 ease-in-out"></span>
+        </a>
+        <a href="#" class="hover relative">
+          Support
+          <span class="absolute w-0 left-1/2 -bottom-2 h-v bg-white transform -translate-x-1/2 transition-all duration-500 ease-in-out"></span>
+        </a>
+        </div>
+      </section>
+    </div>
+
+    <!-- second half footer -->
+    <div class="md:absolute top-16 right-0">
+      <section class="space-x-6 flex md:justify-end justify-center mb-8 md:mb-14">
+        <a href="#" class="cursor-pointer"><img src="\images\icon-facebook.svg" class="hover:scale-125 ick"></a>
+        <a href="#" class="cursor-pointer"><img src="\images\icon-twitter.svg" class="hover:scale-125 ick"></a>
+        <a href="#" class="cursor-pointer"><img src="\images\icon-pinterest.svg" class="hover:scale-125 ick"></a>
+        <a href="#" class="cursor-pointer"><img src="\images\icon-instagram.svg" class="hover:scale-125 ick"></a>
+      </section>
+      <article class="flex text-center justify-center md:justify-stretch max-w-4xl mb-10">
+      <p class="text-gray-300 font-alata block md:w-48 xt:w-auto"> &copy; 2021 Loopstudios. All Rights Reserved.</p>
+      </article>
+    </div>
+    
+  </div>
+</footer>
+
+
+</body>
+</html>
