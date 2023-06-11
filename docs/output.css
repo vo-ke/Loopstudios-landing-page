@@ -785,12 +785,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/images\/mobile\/image-hero\.jpg\'\)\] {
-  background-image: url('/images/mobile/image-hero.jpg');
-}
-
 .bg-small {
-  background-image: url('images/mobile/image-hero.jpg');
+  background-image: url('/images/mobile/image-hero.jpg');
 }
 
 .bg-cover {
@@ -1199,7 +1195,7 @@ div.hover span {
   }
 
   .md\:bg-large {
-    background-image: url('images/desktop/image-hero.jpg');
+    background-image: url('/images/desktop/image-hero.jpg');
   }
 
   .md\:p-10 {
