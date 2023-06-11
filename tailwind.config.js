@@ -47,7 +47,7 @@ module.exports = {
       backgroundImage: {
         'small': "url('/images/mobile/image-hero.jpg')",
         'large': "url('/images/desktop/image-hero.jpg')",
-      }
+      },
   },
 },
   plugins: [],
