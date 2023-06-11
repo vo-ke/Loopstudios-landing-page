@@ -45,8 +45,8 @@ module.exports = {
         '300': '10rem',
       },
       backgroundImage: {
-        'small': "url('/images/mobile/image-hero.jpg')",
-        'large': "url('/images/desktop/image-hero.jpg')",
+        'small': "url('images/mobile/image-hero.jpg')",
+        'large': "url('images/desktop/image-hero.jpg')",
       },
   },
 },
