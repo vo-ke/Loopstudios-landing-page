@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: [http://127.0.0.1:5500/docs/index.html]
-- Live Site URL: [in a minute]
+- Live Site URL: [https://vo-ke.github.io/Loopstudios-landing-page/]
 
 ## My process
 
@@ -77,4 +77,4 @@ This cannot be overly emphasized, ONG.
 
 
 ## Acknowledgments
-i got iunspiration from both Jemmycodes and ecemgo finished works
+i got inspirations from both Jemmycodes and ecemgo finished works
