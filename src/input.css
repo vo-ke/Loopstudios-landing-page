@@ -23,3 +23,11 @@ a:hover span {
   .ick {
     @apply duration-300
   }
+
+  .mobilemenu.active {
+    @apply opacity-100 left-0
+  }
+
+  .hamb.active {
+    @apply opacity-0
+  }

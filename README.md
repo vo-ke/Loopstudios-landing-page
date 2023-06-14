@@ -40,6 +40,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - tailwind css
 - Mobile-first workflow
+- A lil javascript
 
 
 
@@ -61,8 +62,7 @@ a:hover span {
 
 ### Continued development
 
-i didnt really do the menu icons on small screen size 'coz i havent learnt javascript yet to implement the nav[-toggler] but in the nearest future I'll be implementin' it
-
+just wrote some custom javascript for the project recently even tho I barely know Js
 ### Useful resources
 CHAT-GPT!
 CHAT-GPT!!
